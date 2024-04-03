@@ -1,0 +1,22 @@
+.button{
+    color: #050505;
+    background-color: #05050500;
+    padding: 15.5px;
+    padding-top: 5.5px;
+    padding-bottom: 5.5px;
+    border-radius: 5px;
+    border: 0px;
+    font-size: 14px;
+    font-family:'Roboto-Bold';
+    margin:'0px'; 
+}
+
+.button:hover {
+    background-color: #05050524;
+    color: #050505;
+}
+
+.button:active {
+    background-color: #05050549;
+    color: #050505c2;
+}

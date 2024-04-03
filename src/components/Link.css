@@ -1,0 +1,17 @@
+.link{
+    color: #050505b0;
+    font-family: 'Roboto-Regular';
+    font-size: 15px;
+    text-decoration: none;
+    display: inline-block;
+    
+}
+
+.link:hover {
+    font-family: 'Roboto-Bold';
+    color: #050505;
+}
+
+.link:active {
+    color: #050505b7;
+}

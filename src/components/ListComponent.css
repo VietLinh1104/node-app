@@ -1,0 +1,25 @@
+p{
+    margin: 0px;
+}
+.list-component{
+    margin: 0px;
+    display: inline-block;
+}
+
+.span  {
+    display: inline-block;
+}
+
+svg{
+    padding-right: 0.8px;
+    margin-right: 10px;
+}
+
+.nav-item{
+    margin-bottom:10px;
+}
+
+.nav-item:hover svg{
+    background-color: #05050518;
+    border-radius: 2px;
+}

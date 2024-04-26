@@ -19,7 +19,6 @@ app.use('/api/database/pull', router);
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 
-s
 //request login form to flask python
 const reqData = require('./mongodb/mongo-req');
 app.use('/', reqData);

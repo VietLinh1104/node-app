@@ -26,7 +26,7 @@ router.post('/api/database/req', async (req, res) => {
     const { username, password } = req.body;
     
     // Send request to Flask server
-    const flaskResponse = await fetch('http://127.0.0.1:5000/api/database/req', {
+    const flaskResponse = await fetch('http://127.0.0.1:8000/api/database/req', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',

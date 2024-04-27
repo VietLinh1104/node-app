@@ -45,7 +45,7 @@ router.post('/api/login', async function(req, res) {
         };
 
         console.log([{'username': username},{'password': password}])
-        const serverResponse = await axios.post('http://localhost:3001/api/database/req', dataToSend);
+        const serverResponse = await axios.post('http://localhost:3000/api/database/req', dataToSend);
 
         if(serverResponse.status === 200){
             console.log({ message: "Req flask success" })

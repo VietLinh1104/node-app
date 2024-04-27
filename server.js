@@ -5,7 +5,7 @@ const router = express.Router();
 const routerDom = require('./routes/routerDom'); 
 const bodyParser = require('body-parser');
 const app = express();
-const PORT = process.env.PORT || 3001;
+const PORT = process.env.PORT || 3000;
 
 
 app.use('/login', router);

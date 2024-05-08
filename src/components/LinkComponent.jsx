@@ -1,14 +1,14 @@
 import React, { Component } from 'react';
 
-function Link(Props) {
+function LinkComponent(Props) {
 
 
     return (
-        <button type="button" className="link-button">
+        <button onClick={Props.onClick} type="button" className="link-button">
             {Props.text}
         </button>
     );
 
 }
  
-export default Link;
+export default LinkComponent;

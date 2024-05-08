@@ -1,13 +1,14 @@
 import React, { Component } from 'react';
-import { ReactComponent as GoogleLogo } from './svg/google-icon.svg';
+import appleLogo from './svg/apple_icon.png';
 
 
-const GoogleLogin = ({ onClick }) => {
+const AppleLogin = ({ onClick }) => {
 
     return (
-        <button onClick={onClick} className="login-box">
+        <button onClick={onClick} className="applelogin-box">
             <span className="span">
-                <GoogleLogo/>
+                
+                <img src={appleLogo} className="apple-icon" />
             </span>
             <span className="span line-cen">
                 <p >Sign in with Google</p>
@@ -17,4 +18,4 @@ const GoogleLogin = ({ onClick }) => {
     );
 }
 
-export default GoogleLogin;
+export default AppleLogin;

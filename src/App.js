@@ -1,39 +1,42 @@
-import logo from './logo.svg';
+import {Routes, Route} from 'react-router-dom'
+
 import './App.css';
-import ButtonComponent from './components/ButtonComponent';
-import LinkButton from './components/LinkComponent';
-import Link from './components/Link';
-import ListComponent from './components/ListComponent';
-import GoogleLogin from './components/GoogleLogin';
+import Header from './components/Header';
+import Sidebar from './components/Sidebar';
+import PathComponent from './components/PathComponent'
+
+import LoginPage from './page/loginPage';
+import HomePage from './page/homePage'
+import FormComponent from './components/FormComponent'
+
+
+
 
 function App() {
-  let items = ["Content", "Infomation","List"]
+  let items = ["Content","Infomation","List"]
+  
+
   return (
     <div className='App'>
 
-      <nav className='App-header'> 
-          <div className='nav-inline'>
-            <span className='logo-ma'><h1 className='App-logo'>Notion</h1></span>
-            <span className = 'btn-left'><LinkButton text={"Sign in"}/></span>
-          </div>
-      </nav>
+      <Header/>
 
-      <div className ="App-sidebar sidebar">
-        <ListComponent className='il-sidebar' items={items}/>
-      </div>
 
       <div className='App-content'>
-        <div className='App-link'>
-          <span style={{ display: 'inline-block', marginRight:'20px' }}><Link text='Content'/></span>
-          <span style={{ display: 'inline-block', marginRight:'20px' }}><p>/</p></span>
-          <span style={{ display: 'inline-block' }}><Link text='Sign in'/></span>
-        </div>
+        {/* <PathComponent/> */}
+        <Routes>
+          <Route path='/' element={<HomePage/>}/>
+          <Route path='/login' element={<LoginPage/>}/>
+        </Routes>
 
-        <h1 className='bot-margin'>Sign in</h1>
-          <GoogleLogin/>
       </div>
+
     </div>
   );
+
+
+
+  
 }
 
 export default App;

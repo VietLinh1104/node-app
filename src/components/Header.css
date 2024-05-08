@@ -1,0 +1,14 @@
+.App-header {
+    background-color: #ffffff;
+    height: 57px;
+    display: flex;
+    position: fixed;
+    flex-direction: column;
+    justify-content: center;
+    font-family: 'Roboto-Bold';
+    border-bottom: 1px solid #0505054a;
+    margin: 0px;
+    top: 0;
+    left: 0;
+    width: 100%;
+}

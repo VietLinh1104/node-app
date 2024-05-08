@@ -19,7 +19,7 @@
 .App-logo {
   font-size: 20px;
   margin: 0px;
-  margin-left: 40px;
+  margin-left: 120px;
   /* pointer-events: none; */
 }
 
@@ -27,39 +27,11 @@
 
 }
 
-.App-header {
-  background-color: #ffffff;
-  height: 57px;
-  display: flex;
-  position: fixed;
-  flex-direction: column;
-  justify-content: center;
-  font-family: 'Roboto-Bold';
-  border-bottom: 1px solid #0505054a;
-  margin: 0px;
-  top: 0;
-  left: 0;
-  width: 100%;
-}
-
-.App-sidebar{
-  width: 250px;
-  border-right: 1px solid #0505054a;
-  height: 100%;
-  position: fixed;
-  top: 0;
-  left: 0;
-  padding-top: 20px;
-  margin-top:57px;
-  padding-left: 40px;
-}
-
 .App-content{
-  /* background-color: #ffffff; */
-
-  margin-left: 380px;
+  color:#050505;
+  width: 1000px;
+  margin: auto;
   margin-top: 100px;
-  color:#050505
 }
 
 .App-link{
@@ -87,7 +59,7 @@ span{
 
 .btn-left{
   float: right;
-  margin-right: 50px;
+  margin-right: 120px;
 }
 
 

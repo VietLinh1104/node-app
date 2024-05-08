@@ -1,0 +1,67 @@
+input::placeholder,
+textarea {
+  color: #05050566 !important; /* Đổi màu chữ placeholder thành màu xám nhạt */
+  font-size: 15px;
+}
+
+.card-body{
+    width: fit-content  ;
+    color: #37352fac;
+    font-size: 12px;
+    border-radius: 12px;
+}
+
+.form-control{
+    width:300px;
+    height:32px;
+    padding: 10px;
+    padding-bottom: 4px;
+    padding-top: 4px;
+    border:1px solid #05050533;
+}
+
+.margin-bot-5{
+    margin-bottom: 4px;
+}
+
+.margin-bot-10{
+    margin-bottom: 15px;
+}
+
+.margin-bot-20{
+    margin-bottom: 20px;
+}
+
+.vector-horizontal {
+    border-bottom: 1px solid #05050533; /* Màu và độ dày của vector */
+    width: 300px; /* Độ dài của vector */
+  }
+
+.button-login-req{
+    display: flex;
+    justify-content: center;
+}
+
+.widbut{
+    width:300px;
+    color: rgb(255, 255, 255);
+    background-color: #050505;
+    padding: 15.5px;
+    padding-top: 5.5px;
+    padding-bottom: 5.5px;
+    border-radius: 5px;
+    border: 0px;
+    font-size: 14px;
+    font-family:'Roboto-Regular';
+    margin:'0px'; 
+}
+
+.widbut:hover {
+    background-color: #353535;
+    color: #ffffff;
+}
+.widbut:active {
+    background-color: #1F1F1F;
+    color: #CACACA;
+}
+
